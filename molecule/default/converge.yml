@@ -1,0 +1,7 @@
+---
+- name: Converge
+  hosts: all
+  tasks:
+    - name: "Include homeworks-ansible"
+      include_role:
+        name: "homeworks-ansible"
